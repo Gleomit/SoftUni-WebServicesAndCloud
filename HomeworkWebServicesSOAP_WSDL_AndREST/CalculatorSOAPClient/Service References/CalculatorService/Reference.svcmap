@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bcd36a21-1241-43f2-82bd-5a233607fcd5" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:51627/CalculatorService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CalculatorService.xsd" MetadataType="Schema" ID="a81e6a7a-2552-4f11-bed5-e784968ede45" SourceId="1" SourceUrl="http://localhost:51627/CalculatorService.svc?xsd=xsd2" />
+    <MetadataFile FileName="CalculatorService.wsdl" MetadataType="Wsdl" ID="fb15ca24-875e-469e-be14-9bda53e2c523" SourceId="1" SourceUrl="http://localhost:51627/CalculatorService.svc?wsdl" />
+    <MetadataFile FileName="CalculatorService.disco" MetadataType="Disco" ID="0f1ce906-f28d-4388-9527-b23b7c6b2b59" SourceId="1" SourceUrl="http://localhost:51627/CalculatorService.svc?disco" />
+    <MetadataFile FileName="CalculatorService1.xsd" MetadataType="Schema" ID="abfd52e4-ba90-4bac-8372-bf167d0d4458" SourceId="1" SourceUrl="http://localhost:51627/CalculatorService.svc?xsd=xsd1" />
+    <MetadataFile FileName="CalculatorService2.xsd" MetadataType="Schema" ID="5092aea7-a688-4b2f-afbb-4bcfca3b313b" SourceId="1" SourceUrl="http://localhost:51627/CalculatorService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
