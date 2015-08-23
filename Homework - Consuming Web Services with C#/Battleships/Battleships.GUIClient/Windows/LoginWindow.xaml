@@ -1,0 +1,18 @@
+﻿<Window x:Class="Battleships.GUIClient.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleships.GUIClient.Windows"
+        mc:Ignorable="d"
+        Title="Login" Height="480" Width="640">
+    <Grid>
+        <TextBox x:Name="EmailField" HorizontalAlignment="Left" Margin="273,184,0,0" Padding="10" FontSize="16" TextAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Top" Height="43" Width="210"/>
+        <PasswordBox x:Name="PasswordField" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Padding="10" FontSize="16"  Margin="273,270,0,0" VerticalAlignment="Top" Height="43" Width="210"/>
+        <Label x:Name="BattleshipsTitle" Content="Battleships Login" HorizontalAlignment="Left" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="64" FontStyle="Italic" FontWeight="Black" Margin="26,10,0,0" VerticalAlignment="Top" Height="120" Width="580"/>
+        <Button x:Name="LoginButton" Content="Login" HorizontalAlignment="Left" Margin="131,342,0,0" FontSize="54" FontWeight="Black"  VerticalAlignment="Top" Width="352" Height="80" Click="LoginButton_Click"/>
+        <Label x:Name="EmailLabel" Content="Email" HorizontalAlignment="Left" FontWeight="Bold" FontSize="28" Margin="131,184,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.293,2.262" Height="43"/>
+        <Label x:Name="PasswordLabel" Content="Password" HorizontalAlignment="Left" FontWeight="Bold" FontSize="28" Margin="131,270,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.293,2.262" Height="43"/>
+
+    </Grid>
+</Window>

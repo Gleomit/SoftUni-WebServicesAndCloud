@@ -1,0 +1,19 @@
+﻿<Window x:Class="Battleships.GUIClient.Windows.JoinedGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleships.GUIClient.Windows"
+        mc:Ignorable="d"
+        Title="" Height="480" Width="640">
+    <Grid>
+        <Button x:Name="TurnButton" Content="Submit" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left" Margin="389,170,0,0" VerticalAlignment="Top" Width="143" Height="93" Click="TurnButton_Click"/>
+        <TextBox x:Name="XPositionField" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="56" Margin="156,143,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178"/>
+        <TextBox x:Name="YPositionField" FontSize="36" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" Height="56" Margin="156,239,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="178"/>
+        <Label x:Name="XLabel" Content="X:" HorizontalAlignment="Left" FontSize="36" FontWeight="Bold" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="90,143,0,0" VerticalAlignment="Top" Height="56" Width="47"/>
+        <Label x:Name="YLabel" Content="Y:" HorizontalAlignment="Left" FontSize="36" FontWeight="Bold" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Margin="90,239,0,0" VerticalAlignment="Top" Height="56" Width="47"/>
+        <Button x:Name="GameLobbyButton" Content="Game Lobby" FontSize="36" FontWeight="Bold" HorizontalAlignment="Left" Margin="192,350,0,0" VerticalAlignment="Top" Width="257" Height="76" Click="GameLobbyButton_Click"/>
+        <Label x:Name="GameTitleLabel" Content="" FontSize="19" FontWeight="Bold" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="612" Height="46"/>
+
+    </Grid>
+</Window>
